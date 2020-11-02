@@ -1,0 +1,30 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.board {
+    width: 100px;
+    hight: 100px;
+    /* display: grid; */
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, auto);
+    cursor: pointer;
+}
+
+.box{
+    width: 50px;
+    hight: 50px;
+    background-color: black;
+    boarder: 1px solid white;
+}
+
+.box:hover{
+    background-color: blue;
+}
